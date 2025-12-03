@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name = "SrotageRG"
+    resource_group_name = "StorageRG"
     storage_account_name = "trwifonstorage"
     container_name = "taskboardcontainer"
     key = "terraform.tfstate"
